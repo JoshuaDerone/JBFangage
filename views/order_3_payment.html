@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Page Meta -->
+		<title>Fangage - Add Payment Method</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/__main.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/_header.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/alignment.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/buttons.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/containers.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/forms.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/orders.css">
+		<link rel="stylesheet" type="text/css" href="../styles/order_3_payment.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/1140779824.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="../scripts/_shared/__main.js"></script>
+		<script src="../scripts/order_3_payment.js"></script>
+	</head>
+	<body>
+		<div class="main-content-container flex-content">
+			<!-- Header (Begin) -->
+			<div class="header no-flex">
+				<div class="header-control">
+					<div class="order-preview">
+						<img class="order-preview-image" src="../assets/celebs/avatar_cristiano_ronaldo.png"/>
+						<div class="vert-center">
+							<label class="order-preview-description">Get your photo signed by Ronaldo / $15</label>
+						</div>
+					</div>
+				</div>
+				<div class="logo">
+					<img src="../assets/branding/logo-white.png"/>
+				</div>
+				<div class="header-control justify-right">
+					<button type="button" class="cancel-button button-gray" data-toggle="modal" data-target="#cancelModal">
+						<i class="icon-import-dark fa fa-times" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+			<!-- Header (End) -->
+			<div class="container-orient-y fill-height scrollable-container">
+				<div class="container-orient-x fill-width">
+					<!-- Payment Form (Begin) -->
+					<div class="inset-content-container">
+						<div class="form-box fine-gray-border">
+							<div class="form-section">
+								<label class="order-status-indicator">STEP 3 OF 3</label>
+								<h3 class="order-status-message">Add payment method</h3>
+								<!-- The following payment form should be markup ffrom a third-party payment processor, or from a separate paymet gateway module -->
+								<form action="">
+									<input type="text" name="cardnumber" placeholder="Enter your card number">
+									<div class="form-row">
+										<input class="form-row-item" type="text" name="expdate" placeholder="Exp Date">
+										<input class="form-row-item" type="text" name="cvc" placeholder="CVC">
+									</div>
+									<div class="form-footer button-row">
+										<button type="button" class="button-white" data-toggle="modal" data-target="#cancelModal">
+											<label>Cancel</label>
+										</button>
+										<button type="button" class="button-white">
+											<label>Back</label>
+										</button>
+										<button type="button" class="button-red disabled" type="submit">
+											<label>REVIEW ORDER <i class="icon-import-dark fa fa-arrow-right" aria-hidden="true"></i></label>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- Payment Form (End) -->
+					<!-- "Cancel" Modal (Begin) -->
+					<div class="modal fade" id="cancelModal" tabindex="-1" role="dialog" aria-labelledby="cancelModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-message">
+									<h3 class="modal-title-text">Are you sure you want to cancel?</h3>
+									<label class="modal-message-text">You will lose all the information you've entered for this order</label>
+								</div>
+								<div class="button-row">
+									<button type="button" class="button-white" data-dismiss="modal">
+										<label>CONTINUE WITH ORDER</label>
+									</button>
+									<button type="button" class="button-red">
+										<label>CONFIRM</label>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- "Cancel" Modal (End) -->
+				</div>
+			</div>
+		</div>
+		<!-- Background Image -->
+		<img class="background-panel" src="../assets/background.png"/>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Page Meta -->
+		<title>Fangage - Confirm Order</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/__main.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/_header.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/alignment.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/buttons.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/containers.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/forms.css">
+		<link rel="stylesheet" type="text/css" href="../styles/_shared/orders.css">
+		<link rel="stylesheet" type="text/css" href="../styles/order_5_confirmation.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/1140779824.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="../scripts/_shared/__main.js"></script>
+		<script src="../scripts/order_5_confirmation.js"></script>
+	</head>
+	<body>
+		<div class="main-content-container flex-content">
+			<!-- Header (Begin) -->
+			<div class="header no-flex">
+				<div class="header-control">
+					<div class="order-preview">
+						<img class="order-preview-image" src="../assets/celebs/avatar_cristiano_ronaldo.png"/>
+						<div class="vert-center">
+							<label class="order-preview-description">Get your photo signed by Ronaldo / $15</label>
+						</div>
+					</div>
+				</div>
+				<div class="logo">
+					<img src="../assets/branding/logo-white.png"/>
+				</div>
+				<div class="header-control justify-right">
+					<!-- Cancel button not here since order complete; div kept for spacing-->
+				</div>
+			</div>
+			<!-- Header (End) -->
+			<div class="container-orient-y fill-height scrollable-container">
+				<div class="container-orient-x fill-width">
+					<!-- Order Confirmation Form (Begin) -->
+					<div class="inset-content-container">
+						<div class="form-box fine-gray-border">
+							<div class="form-section">
+								<label class="order-status-indicator">THANK YOU</label>
+								<h3 class="order-status-message">Your order has been placed</h3>
+								<form action="">
+									<label class="form-label">You will recieve an email once your photo is signed. It takes approximately 3-5 business days.</label>
+									<label class="form-label">If you have any questions, contact us at <a href="mailto:help@fangage.com">help@fangage.com</a></label>
+									<div class="form-footer button-row">
+										<button type="button" class="button-white">
+											<label>Go to home</label>
+										</button>
+										<button type="button" class="button-gray" type="submit">
+											<label>GET ANOTHER PHOTO SIGNED <i class="icon-import-dark fa fa-arrow-right" aria-hidden="true"></i></label>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- Order Confirmation Form (End) -->
+				</div>
+			</div>
+		</div>
+		<!-- Background Image -->
+		<img class="background-panel" src="../assets/background.png"/>
+	</body>
+</html>

@@ -1,0 +1,154 @@
+/* Search Results Header */
+
+div.search-results-header {
+	display: absolute;
+	top: 50px;
+	height: 100px;
+	background: white;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-bottom-width: 2px;
+}
+
+div.search-results-header-content {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+div.search-results-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+div.search-results-count-container {
+	display: block;
+	flex: 1;
+	height: 100%;
+}
+
+div.search-results-count {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+div.search-results-filters-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+div.search-results-filters {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 50px;
+}
+
+
+/* Search Results Body */
+
+div.search-results {
+	position: absolute;
+	bottom: 50px;
+	top: 150px;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+div.search-results::-webkit-scrollbar { 
+	display: none; 
+}
+
+div.search-result {
+	position: relative;
+	height: 350px;
+	width: 350px;
+	margin: 5px;
+	padding: 30px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+div.search-result button.review-product {
+	height: 100%;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.search-result button.review-product label {
+	font-weight: normal;
+}
+
+div.search-result button.review-product label.product-action {
+	padding: 15px;
+}
+
+div.search-result button.review-product label.product-price {
+	margin: 10px;
+	padding: 5px;
+	padding-left: 15px;
+	border-left-color: gray;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+div.search-result div.search-result-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+div.search-result div.search-result-header div.header-caption {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 15px;
+}
+
+div.search-result div.search-result-header div.header-caption label.celeb-category {
+	font-size: 11px;
+	color: lightgray;
+}
+
+div.search-result div.search-result-header div.header-caption label.celeb-name {
+	font-size: 16px;
+}
+
+div.search-result div.search-result-header img.avatar {
+	clip-path: circle(40px at center);
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+}
+
+div.search-result div.result-description {
+	flex-grow: 1;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+div.search-result div.result-description p {
+	font-weight: normal;
+}
+

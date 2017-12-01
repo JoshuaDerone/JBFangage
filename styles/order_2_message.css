@@ -1,0 +1,7 @@
+textarea.message-content-box {
+	height: 200px;
+	width: 100%;
+	resize: none;
+	padding: 15px;
+}
+

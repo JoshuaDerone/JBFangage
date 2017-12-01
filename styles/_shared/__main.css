@@ -1,0 +1,158 @@
+/* Page-generic */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Icon Styles */
+
+.icon-import-light {
+	color: white;
+}
+
+.icon-import-dark {
+	color: black;
+}
+
+
+/* Page Background */
+
+img.background-panel {
+	opacity: 0.4;
+	z-index: -9000;
+	position: relative;
+	transform: translateX(-1%) translateY(-100%);
+	max-width: 105%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+
+/* Container (General, Shared) */
+
+div.main-content-container {
+	height: 100%;
+	width: 100%;
+}
+
+div.flex-content {
+	display: flex;
+	flex-direction: column;
+}
+
+div.body-container {
+	flex-grow: 1;
+}
+
+/* Main Page transition */
+
+#main-page-content-mask {
+	pointer-events: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.0;
+	background-color: black;
+	transition: opacity 0.6s;
+}
+
+
+/* Decoration */
+
+div.border-below {
+	border-bottom-width: 1px;
+	border-bottom-color: lightgray;
+	border-bottom-style: solid;
+	padding-bottom: 15px;
+}
+
+div.fine-gray-border {
+	border-color: lightgray;
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+/* Modals */
+
+div.modal-dialog {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.modal-content {
+	border-radius: 0px;
+	padding-bottom: 30px;
+}
+
+div.modal-content div.button-row {
+	display: flex;
+	width: 100%;
+	margin-right: 0px;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.modal-content div.button-row button {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+div.modal-content div.button-row button label {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+div.modal-content div.modal-message {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+
+div.modal-content div.modal-message h3 {
+	padding-bottom: 25px;
+}
+
+div.modal-content div.modal-message label {
+	font-size: 12px;
+}
+
+
+/* Terms and Conditions Detail Boxes */
+
+div.terms-and-conditions-container {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 30px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+}
+
+div.terms-and-conditions-container label, div.terms-and-conditions-container p {
+	font-size: 11px;
+	color: gray;
+}
+
+div.terms-and-conditions-container label {
+	font-weight: bold;
+}
+
+div.terms-and-conditions-container p {
+	font-weight: normal;
+}
+

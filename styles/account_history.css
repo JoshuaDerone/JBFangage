@@ -1,0 +1,52 @@
+div.ordered-item {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: lightgray;
+	padding: 30px !important;
+	display: flex;
+	flex-direction: row;
+}
+
+div.ordered-item div.item-meta {
+	flex: 3;
+	flex-grow: 1;
+}
+
+div.ordered-item div.item-meta label.order-date {
+	color: gray;
+	font-size: 11px !important;
+
+}
+
+div.ordered-item div.item-meta h4.order-name{
+	font-weight: bold;
+	margin: 0px;
+}
+
+div.ordered-item div.item-meta label.order-id {
+	font-size: 10px !important;
+}
+
+div.ordered-item div.item-meta button {
+	width: 100%;
+	padding: 10px;
+}
+
+div.ordered-item div.item-avatar {
+	flex: 1;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.ordered-item div.item-avatar img {
+	clip-path: circle(60px at center);
+	height: 120px;
+	width: 120px;
+}
+
+.meta-entry {
+	margin-bottom: 8px !important;
+}
+

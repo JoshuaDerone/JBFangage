@@ -1,0 +1,33 @@
+/* Parent Containers */
+
+div.inset-content-container {
+	height: 100%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+
+/* Container Decoration */
+
+div.content-box {
+	background: white;
+}
+
+div.padded-box {
+	padding: 15px;
+}
+
+
+/* Container Formatting */
+
+div.content-column {
+	display: flex;
+	flex-direction: column;
+}
+
+div.content-row {
+	display: flex;
+	flex-direction: row;
+}
+

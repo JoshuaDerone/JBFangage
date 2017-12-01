@@ -1,0 +1,93 @@
+div.sidebar-menu {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background: white;
+	top: 0px;
+	bottom: 0px;
+	padding: 15px;
+	padding-top: 30px;
+	border-right-color: lightgray;
+	border-right-width: 1px;
+	border-right-style: solid;
+	transition: left 0.5s;
+}
+
+div.sidebar-menu.menu-open {
+	left: 0px;
+}
+
+div.sidebar-menu.menu-closed {
+	left: -301px;
+}
+
+div.sidebar-menu button label, i {
+	font-size: 14px;
+}
+
+div.sidebar-menu button.sidebar-button {
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.sidebar-menu div.account-controls {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.sidebar-menu div.account-controls button {
+	margin-bottom: 10px;
+}
+
+div.sidebar-menu button.sidebar-button.close-button {
+	justify-content: flex-end !important;
+}
+
+div.sidebar-menu button.close-button label {
+	margin-right: 10px;
+}
+
+div.sidebar-menu div.links-list {
+	display: flex;
+	flex-direction: column;
+}
+
+div.sidebar-menu div.links-list a {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	transition: background 0.3s;
+	text-decoration: none;
+}
+
+div.sidebar-menu div.links-list a:hover {
+	background: lightgray;
+}
+
+div.sidebar-menu div.links-list a:focus {
+	outline: none;
+}
+
+div.sidebar-menu div.links-list a.active {
+	color: gray;
+}
+
+div.sidebar-menu div.links-list div.sub-links {
+	display: flex;
+	flex-direction: column;
+}
+
+div.sidebar-menu div.links-list div.sub-links a {
+	color: gray;
+	padding: 15px;
+	text-align: center;
+	font-size: 13px;
+}
+

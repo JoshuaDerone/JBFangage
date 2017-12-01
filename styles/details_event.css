@@ -1,0 +1,76 @@
+div.event-component-container {
+	padding: 15px;
+}
+
+div.event-component-container button.event-action {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.event-component-container button.event-action label {
+	font-weight: normal;
+}
+
+div.event-component-container div.event-detail-section {
+	margin-bottom: 18px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.event-component-container div.event-detail-section label.detail-section-title {
+	font-size: 13px;
+}
+
+div.event-component-container div.event-detail-section label.detail-section-content {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+div.event-component-container div.event-detail-section ul.detail-section-content {
+	padding-left: 17px;
+}
+
+div.event-component-container div.event-detail-section ul.detail-section-content li {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div.event-description-container {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.event-description-container div.event-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.event-description-container div.event-header label {
+	color: gray;
+}
+
+div.event-description-container div.event-header h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div.event-description-container p {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+div.event-art-container {
+	margin: 0px;
+}
+
+div.event-art-container img {
+	width: 500px;
+	margin: 0px;
+}
+

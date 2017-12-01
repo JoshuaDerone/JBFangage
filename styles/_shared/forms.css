@@ -1,0 +1,166 @@
+/* Form (Highlight Format) */
+
+div.form-logo {
+	width: inherit;
+	text-align: center;
+}
+
+div.form-logo img {
+	width: 250px;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.form-box {
+	background: white;
+	width: 500px;
+}
+
+div.form-box div.form-section {
+	padding: 35px;
+}
+
+div.form-box div.form-section h3 {
+	padding-bottom: 20px;
+}
+
+div.form-box div.form-section label {
+	font-size: 12px;
+	margin: 0px;
+}
+
+div.form-box div.form-section input{
+	padding: 10px;
+	font-size: 12px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+div.form-box div.form-section input[type=text] {
+	width: 100%;
+}
+
+div.form-box div.form-section div.checkbox-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+div.form-box div.form-section div.checkbox-vert-align {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.form-box div.form-section div.checkbox-row input[type=checkbox] {
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 0px;
+}
+
+div.form-box div.form-section div.button-row {
+	display: flex;
+	width: 100%;
+	margin-right: 0px;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.form-box div.form-section div.button-row.no-padding {
+	padding-top: 0px !important;
+}
+
+div.form-box div.form-section div.button-row button {
+	padding: 15px;
+}
+
+div.form-box div.form-section div.form-field {
+	padding-bottom: 5px;
+}
+
+div.form-box div.form-section div.form-field.fill-field {
+	flex-grow: 1;
+}
+
+div.form-box div.form-section div.form-field.form-field-extra-padding {
+	padding-bottom: 20px;
+}
+
+div.form-box div.form-section div.form-field div.form-dropdown {
+	border-color: lightgray;
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.form-box div.form-section div.form-field div.form-dropdown div.dropdown-header {
+	padding: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.form-box div.form-section div.form-field div.form-field-stack {
+	display: flex;
+	flex-direction: column;
+}
+
+div.form-box div.form-section div.form-field div.form-field-stack input[type=checkbox]{
+	margin: 12px;
+}
+
+div.form-box div.form-section div.form-field div.form-field-stack label.field-header {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.form-box div.form-section div.form-field div.form-field-stack label.field-content {
+	color: gray;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+div.form-box div.form-section div.form-field div.form-dropdown div.dropdown-header label {
+	font-weight: normal;
+}
+
+div.form-box div.form-section div.input-row {
+	display: flex;
+	width: 100%;
+}
+
+div.form-box div.form-section div.input-row div.input-section {
+	flex: 1; 
+}
+
+div.form-box div.form-footer-addenda {
+	border-top-color: lightgray;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+div.form-box div.form-footer {
+	padding-top: 20px !important;
+}
+
+div.form-box div.form-footer-addenda label {
+	width: 100%;
+	font-size: 11px;
+	padding: 30px;
+	text-align: center;
+}
+
+div.form-row {
+	display: flex;
+	flex-direction: row;
+}
+
+input.form-row-item {
+	flex: 1;
+}
+
+label.form-label {
+	margin-bottom: 10px !important;
+}
+

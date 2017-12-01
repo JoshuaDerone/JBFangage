@@ -1,0 +1,48 @@
+/* Search Control */
+
+div.search-control-container {
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.search-control-container div.search-control {
+	display: flex;
+	flex-direction: row;
+	height: 22px;
+}
+
+div.search-control-container div.search-control button.search-button {
+	border-style: none;
+	background-color: rgba(0,0,0,0.0);
+	height: inherit;
+}
+
+div.search-control-container div.search-control button.search-button:focus {
+	outline: none;
+}
+
+div.search-control-container div.search-control button.search-button i {
+	font-size: 20px;
+}
+
+div.search-control-container div.search-control input[type=text] {
+	background: transparent;
+	color: white;
+	border-radius: 11px;
+	border-style: none;
+	height: inherit;
+	width: 180px;
+	font-size: 12px;
+	padding: 4px;
+}
+
+div.search-control-container div.search-control input[type=text].dark-text {
+	color: black;
+}
+
+div.search-control-container div.search-control input[type=text]:focus {
+	outline: none;
+}
+

@@ -1,0 +1,12 @@
+div.button-row.button-as-form {
+	justify-content: flex-start !important;
+	padding-top: 5px;
+	padding-bottom: 10px !important;
+}
+
+div.button-row button.password-change-button {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}
+

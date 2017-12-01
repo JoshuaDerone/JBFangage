@@ -1,0 +1,260 @@
+div.main-content-container.homepage {
+	background: white !important;
+}
+
+div.main-content-container.homepage div.header.homepage {
+	max-width: 95%;
+	background: white !important;
+	height: 90px;
+}
+
+div.main-content-container.homepage div.header.homepage div.header-control.homepage {
+	background: white !important;
+}
+
+div.main-content-container.homepage div.header.homepage div.logo.homepage img {
+	padding: 15px;
+}
+
+div.main-content-container.homepage div.header.homepage button.home-sign-button {
+	padding: 15px;
+}
+
+div.main-content-container.homepage div.event-highlight-container {
+	width: 100%;
+	padding-top: 5px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify: center;
+	height: 70vh;
+	overflow: hidden;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-photo {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-photo img {
+	max-width: 95%;
+	filter: brightness(80%);
+	background: black;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container {
+	position: absolute;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container div.event-highlight-control {
+	width: 60%;
+	margin-left: 10%;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container label.event-category {
+	color: lightgray;
+	font-size: 13px;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container label.event-description {
+	color: white;
+	font-size: 60px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container button.home-action {
+	padding: 30px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container button.home-action label {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+div.main-content-container.homepage div.featured {
+	width: 95%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.main-content-container.homepage div.featured div.featured-dropdown {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.main-content-container.homepage div.featured div.featured-title label {
+	margin: 0px;
+}
+
+div.main-content-container.homepage div.featured div.featured-collection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.main-content-container.homepage div.featured div.featured-collection a.featured-item {
+	padding: 5px;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: opacity 0.5s;
+	text-decoration: none;
+}
+
+div.main-content-container.homepage div.featured div.featured-collection a.featured-item:hover {
+	opacity: 0.8;
+}
+
+div.main-content-container.homepage div.featured div.featured-collection a.featured-item img {
+	clip-path: circle(40px at center);
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+}
+
+div.main-content-container.homepage div.featured div.featured-collection a.featured-item label {
+	font-weight: normal;
+	font-size: 11px;
+	margin: 0px;
+	margin-top: 3px;
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+div.main-content-container.homepage div.featured div.featured-link {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.main-content-container.homepage div.featured div.featured-link a {
+	font-weight: normal;
+	font-size: 13px;
+	margin: 0px;
+}
+
+div.main-content-container.homepage div.photo-grid {
+	width: 100%;
+	display: flex;
+	background-color: #000;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	padding: 0;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item {
+	position: relative;
+	width: calc(100vw/4);
+	height: calc(100vw/4);
+	display: block;
+	float: left;
+	flex: 0 0 auto;
+	overflow: hidden;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-image {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: black;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-image img {
+	width: 40vw;
+	transform: translateX(-10%) translateY(-10%);
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	opacity: 0.0;
+	transition: opacity 0.5s;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls:hover {
+	background: rgba(0,0,0,0.7);
+	opacity: 1.0;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls label {
+	color: white;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.button-container button.photo-grid-button {
+	width: 100%;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.button-container button.photo-grid-button label {
+	padding: 10px;
+	margin: 0px;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.button-container button.photo-grid-button:hover {
+	background: rgba(0,0,0,0.7);
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.button-container button.photo-grid-button:focus {
+	outline: none;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container div.meta-box {
+	display: flex;
+	flex-direction: column;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container div.meta-box label.category {
+	font-size: 11px;
+	color: gray;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container div.meta-box label.celeb-name {
+	font-size: 16px;
+	color: white;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container div.meta-box label.upload-credit {
+	font-size: 11px;
+	color: gray;
+}
+
+div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo-grid-item-controls div.meta-container div.meta-box label.upload-date {
+	font-size: 11px;
+	color: gray;
+}
+
+

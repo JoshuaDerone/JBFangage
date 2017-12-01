@@ -1,0 +1,21 @@
+div.picture-box {
+	height: 400px;
+	width: 100%;
+	padding: 10px;
+}
+
+div.upload-prompt {
+	display: flex;
+	flex-direction: column;
+}
+
+div.upload-prompt i {
+	font-size: 60px;
+	text-align: center;
+	mrgin-bottom: 15px;
+}
+
+div.upload-prompt label {
+	text-align: center;
+}
+

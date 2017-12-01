@@ -1,0 +1,69 @@
+/* Page Footer */
+
+div.footer {
+	width: 100%;
+	background: rgb(51,51,51);
+	height: 50px;
+	margin: 0px;
+	color: white;
+}
+
+div.footer a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s;
+}
+
+div.footer a:hover {
+	text-decoration: none;
+	color: lightgray;
+}
+
+div.footer.static-footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+div.footer label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div.footer label.copyright {
+	margin-left: 10px !important;
+}
+
+div.footer {
+	font-size: 12px;
+	margin: 0px;
+}
+
+div.footer-component {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.footer-component div.links-list {
+	display: flex;
+	flex-direction: row;
+}
+
+div.footer-component div.links-list  a {
+	margin: 7px;
+}
+
+div.footer-component label {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.footer-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+

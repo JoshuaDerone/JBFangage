@@ -1,0 +1,95 @@
+div.celeb-component-container {
+	padding: 15px;
+}
+
+div.celeb-component-container button.celeb-action {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.celeb-component-container button.celeb-action label {
+	font-weight: normal;
+}
+
+div.celeb-component-container div.celeb-detail-section {
+	margin-bottom: 18px;
+	display: flex;
+	flex-direction: row;
+}
+
+div.celeb-component-container div.celeb-detail-section label.detail-section-title {
+	margin: 3px;
+	font-size: 13px;
+}
+
+div.celeb-component-container div.celeb-detail-section label.detail-section-content {
+	margin: 5px;
+	margin-left: 5px;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+div.celeb-component-container div.celeb-detail-section ul.detail-section-content {
+	padding-left: 17px;
+}
+
+div.celeb-component-container div.celeb-detail-section ul.detail-section-content li {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div.celeb-description-container {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.celeb-description-container div.celeb-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.celeb-description-container div.celeb-header label {
+	color: gray;
+}
+
+div.celeb-description-container div.celeb-header h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div.celeb-description-container p {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+div.celeb-media-container {
+	padding: 15px;
+	margin: 0px;
+}
+
+div.celeb-media-container img.featured {
+	width: 450px;
+	margin: 0px;
+}
+
+div.celeb-media-container div.thumbnails-row {
+	padding-top: 5px;
+}
+
+div.celeb-media-container div.thumbnails-row img.media-thumbnail {
+	margin-right: 5px;
+	height: 50px;
+	transition: filter 0.5s;
+}
+
+div.celeb-media-container div.thumbnails-row img.media-thumbnail:hover {
+	margin-right: 5px;
+	height: 50px;
+	filter: brightness(70%);
+}

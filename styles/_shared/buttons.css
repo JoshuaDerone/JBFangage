@@ -1,0 +1,132 @@
+/* Button Styles */
+
+.button-gray, .button-red, .button-white {
+	border-style: none;
+	transition: background 0.5s;
+}
+
+.button-gray i, .button-gray label, .button-red i, .button-red label, .button-white i, .button-white label, .button-white-border-dark i, .button-white-border-dark label, .button-white-border-light i, .button-white-border-light label, .button-white-border-black i, .button-white-border-black label {
+	margin: 0px;
+	pointer-events: none;
+}
+
+.button-gray:focus, .button-red:focus, .button-white:focus, .button-white-border-dark:focus, .button-white-border-light:focus, .button-white-border-black:focus {
+	outline: none;
+}
+
+.button-gray {
+	background-color: rgb(51,51,51);
+}
+
+.button-gray:hover {
+	background: rgb(102,102,102);
+}
+
+.button-gray i, .button-gray label {
+	color: white;
+}
+
+.button-red {
+	background-color: rgb(240,27,26);
+}
+
+.button-red:hover {
+	background-color: rgb(192, 12, 12);
+}
+
+.button-red i, .button-red label {
+	color: white;
+}
+
+.button-white, .button-white-border-dark, .button-white-border-light, .button-white-border-black {
+	background-color: white;
+}
+
+.button-white:hover, .button-white-border-dark:hover, .button-white-border-light:hover, .button-white-border-black:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.button-white i, .button-white label, .button-white-border-black i, .button-white-border-black label {
+	color: black !important;
+}
+
+.button-white-border-dark, .button-white-border-light {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.button-white-border-dark i, .button-white-border-dark label {
+	color: rgb(51,51,51);
+}
+
+.button-white-border-light i, .button-white-border-light label {
+	color: lightgray;
+}
+
+.button-white-border-dark {
+	border-color: rgb(51,51,51);
+}
+
+.button-white-border-light {
+	border-color: lightgray;
+}
+
+.button-clear-light, .button-clear-border-light {
+	background: transparent;
+}
+
+.button-clear-light {
+	border-style: none;
+}
+
+.button-white-border-black {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.button-clear-border-light {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.button-clear-light label, .button-clear-border-light label {
+	width: 100%;
+	color: white;
+	text-align: center;
+	pointer-events: none;
+}
+
+button.sign-button {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+button.sign-button label {
+	font-size: 12px;
+	pointer-events: none;
+}
+
+button.cancel-button {
+	padding: 15px;
+}
+
+button.disabled {
+	background-color: lightgray;
+	pointer-events: none;
+}
+
+button.button-white-border-black-disabled {
+	pointer-events: none;
+	border-color: lightgray;
+	border-style: solid;
+	border-width: 2px;
+}
+
+button.button-white-border-black-disabled label {
+	color: lightgray !important;
+}
+
+
+

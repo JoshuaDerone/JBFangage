@@ -1,0 +1,84 @@
+div.picture-text-pair {
+	display: flex;
+	flex-direction: row;
+}
+
+div.picture-text-pair div.photo-signature-description {
+	flex: 2;
+}
+
+div.picture-text-pair div.photo-signature-description label.photo-signature-descriptor {
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+div.picture-text-pair div.photo-signature-description a.photo-signature-edit {
+	font-size: 13px;
+}
+
+div.picture-text-pair img.photo-signature-preview {
+	flex: 1;
+	clip-path: circle(50px at center);
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+}
+
+div.payment-method-summary {
+
+}
+
+div.payment-total-summary {
+	
+}
+
+div.terms-summary {
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+div.titled-subsection {
+	padding-top: 10px;
+}
+
+div.titled-subsection div.subsection-row {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.titled-subsection div.minor-row {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.titled-subsection div.minor-row label {
+	font-size: 15px !important;
+}
+
+div.titled-subsection div.minor-row label.minor-label {
+	font-size: 13px !important;
+	color: gray;
+}
+
+div.titled-subsection div.minor-row label.bold {
+	font-weight: bold;
+}
+
+div.titled-subsection div.minor-row label.normal {
+	font-weight: normal;
+}
+
+div.titled-subsection div.minor-row label sup {
+	font-size: 11px;
+}
+
+div.titled-subsection label.title {
+	color: gray;
+}
+

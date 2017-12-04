@@ -44,33 +44,34 @@ div.main-content-container.homepage div.event-highlight-container div.event-high
 }
 
 div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container {
-	position: absolute;
-	height: inherit;
+	position: relative;
+	height: 100%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container div.event-highlight-control {
-	width: 60%;
-	margin-left: 10%;
+	width: 90%;
+	margin-left: 5%;
 }
 
 div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container label.event-category {
-	color: lightgray;
-	font-size: 13px;
+	color: white;
+	font-size: 100%;
 }
 
 div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container label.event-description {
 	color: white;
-	font-size: 60px;
+	font-size: 250%;
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
 
 div.main-content-container.homepage div.event-highlight-container div.event-highlight-control-container button.home-action {
 	padding: 30px;
-	width: 300px;
+	width: 50%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -258,3 +259,12 @@ div.main-content-container.homepage div.photo-grid div.photo-grid-item div.photo
 }
 
 
+.fb-live {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 10px;
+	padding-top: 20px;
+	width: 50%;
+}
